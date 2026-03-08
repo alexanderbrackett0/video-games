@@ -2,19 +2,19 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
-    animation: cycleBackground 30s infinite;
+    animation: cycleBackground 45s infinite;
+}
+    @keyframes cycleBackground {
+  0%   { background-image: url("../images/game-1.jpg"); }
+    10%  { background-image: url("../images/game-2.png"); }
+    20%  { background-image: url("../images/game-3.webp"); }
+    30%  { background-image: url("../images/game-4.jpg"); }
+    40%  { background-image: url("../images/game-5.webp"); }
+    50%  { background-image: url("../images/game-6.jpg"); }
+    60%  { background-image: url("../images/game-7.jpg"); }
+    70%  { background-image: url("../images/game-8.avif"); }
+    80%  { background-image: url("../images/game-9.avif"); }
+    90%  { background-image: url("../images/game-10.webp"); }
+    100% { background-image: url("../images/game-1.jpg"); }
 }
 
-@keyframes cycleBackground {
-    0%   { background-image: url("images/game1.jpg"); }
-    10%  { background-image: url("images/game2.png"); }
-    20%  { background-image: url("images/game3.webp"); }
-    30%  { background-image: url("images/game4.jpg"); }
-    40%  { background-image: url("images/game5.webp"); }
-    50%  { background-image: url("images/game6.jpg"); }
-    60%  { background-image: url("images/game7.jpg"); }
-    70%  { background-image: url("images/game8.avif"); }
-    80%  { background-image: url("images/game9.avif"); }
-    90%  { background-image: url("images/game10.webp"); }
-    100% { background-image: url("images/game1.jpg"); }
-}
