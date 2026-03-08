@@ -19,6 +19,7 @@
     100% { background-image: url("../images/game-1.jpg"); }
 }
 
-h1 {
+.hero h1 {
     text-align: center;
+    padding-top: 63rem;
 }
