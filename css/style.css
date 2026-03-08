@@ -1,9 +1,10 @@
 .hero {
-    height: 100vh;
+    height: 75vh;
     background-size: cover;
     background-position: center;
     animation: cycleBackground 45s infinite;
 }
+
     @keyframes cycleBackground {
   0%   { background-image: url("../images/game-1.jpg"); }
     10%  { background-image: url("../images/game-2.png"); }
@@ -18,3 +19,6 @@
     100% { background-image: url("../images/game-1.jpg"); }
 }
 
+h1 {
+    text-align: center;
+}
