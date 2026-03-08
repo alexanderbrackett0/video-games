@@ -7,14 +7,14 @@
 
 @keyframes cycleBackground {
     0%   { background-image: url("images/game1.jpg"); }
-    10%  { background-image: url("images/game2.jpg"); }
-    20%  { background-image: url("images/game3.jpg"); }
+    10%  { background-image: url("images/game2.png"); }
+    20%  { background-image: url("images/game3.webp"); }
     30%  { background-image: url("images/game4.jpg"); }
-    40%  { background-image: url("images/game5.jpg"); }
+    40%  { background-image: url("images/game5.webp"); }
     50%  { background-image: url("images/game6.jpg"); }
     60%  { background-image: url("images/game7.jpg"); }
-    70%  { background-image: url("images/game8.jpg"); }
-    80%  { background-image: url("images/game9.jpg"); }
-    90%  { background-image: url("images/game10.jpg"); }
+    70%  { background-image: url("images/game8.avif"); }
+    80%  { background-image: url("images/game9.avif"); }
+    90%  { background-image: url("images/game10.webp"); }
     100% { background-image: url("images/game1.jpg"); }
 }
